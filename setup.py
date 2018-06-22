@@ -42,7 +42,16 @@ def run_setup():
             'console_scripts': [
                 'disport = disport:main',
             ],
-        }
+        },
+        classifiers=[
+            'Development Status :: 4 - Beta',
+            'Environment :: Console',
+            'Intended Audience :: Developers',
+            'License :: OSI Approved :: MIT License',
+            'Programming Language :: Python',
+            'Topic :: Software Development :: Disassemblers',
+            'Topic :: Utilities',
+        ],
     )
 
 
