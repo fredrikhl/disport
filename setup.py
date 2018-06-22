@@ -34,7 +34,7 @@ def run_setup():
         author='fredrikhl',
         # author_email='todo@example.org',
         # TODO: url='https://github.com/fredrikhl/disport',
-        use_scm_version=False,
+        use_scm_version=True,
         py_modules=modules,
         setup_requires=setup_requirements,
         install_requires=install_requirements,
